@@ -2,7 +2,7 @@ function compute()
 {
 var principal = document.getElementById("principal");
 
-// check for any negative or zero value or empty
+// check for any negative or zero value or when empty
 
 if(!principal.value || parseInt(principal.value) <= 0) {
    alert("Enter a positive number");
